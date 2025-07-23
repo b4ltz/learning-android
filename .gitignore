@@ -16,6 +16,7 @@ local.properties
 *.ipr
 *.iws
 
+# Keystore files (do not store secrets in VCS)
 *.jks
 *.keystore
 
