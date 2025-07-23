@@ -5,8 +5,8 @@ Welcome to my Kotlin Android journey! This README will track my learning progres
 ---
 
 ## ✅ Learning Milestones
-
-### 📘 Fundamentals
+<details>
+  <summary>📁 Fundamentals (Android & IDE)</summary>
 
 - [ ] [Learn Kotlin syntax (variables, control flow, functions, OOP)](https://kotlinlang.org/docs/basic-syntax.html)
 - [ ] [Understand Android project structure](https://developer.android.com/studio/projects)
@@ -24,7 +24,7 @@ Welcome to my Kotlin Android journey! This README will track my learning progres
 - [ ] [Use DataStore](https://developer.android.com/topic/libraries/architecture/datastore) or [SharedPreferences](https://developer.android.com/training/data-storage/shared-preferences)
 - [ ] [Understand Coroutines and Flows](https://kotlinlang.org/docs/coroutines-overview.html)
 - [ ] [Learn Firebase integration (Auth, Firestore, Messaging)](https://firebase.google.com/docs/android/setup)
-
+</details
 ---
 
 ## 🛠️ Project-Based Learning
@@ -33,7 +33,7 @@ Welcome to my Kotlin Android journey! This README will track my learning progres
 
 ### 🎯 Beginner Apps
 
-- [ ] ✅ **01. Todo App** – Add, edit, and delete tasks. Learn ViewModel and State in Compose.
+- [ ] **01. Todo App** – Add, edit, and delete tasks. Learn ViewModel and State in Compose.
 - [ ] **02. Calculator App** – Basic calculator UI and logic.
 - [ ] **03. Notes App** – Persist notes using Room DB.
 - [ ] **04. Tip Calculator** – Simple UI to calculate tips.
