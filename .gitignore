@@ -1,0 +1,66 @@
+# ============================================
+# Android & IntelliJ / Android Studio ignores
+# ============================================
+
+# Gradle files
+.gradle/
+build/
+**/build/
+
+# Local configuration file (SDK path, etc)
+local.properties
+
+# IDE settings
+.idea/
+*.iml
+*.ipr
+*.iws
+
+*.jks
+*.keystore
+
+# Crashlytics/Firebase
+fabric.properties
+google-services.json
+*.hprof
+
+# Log and temporary files
+*.log
+*.tmp
+*.temp
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Kotlin specific
+.kotlin/
+
+# Android Studio Navigation Editor temp files
+.navigation/
+
+# Gradle Wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# Jetpack Compose compiler metrics/reports (optional)
+*.cxx/
+compose-metrics/
+compose-logs/
+
+# Others (optional and environment-specific)
+*.apk
+*.ap_
+
+# Mac/Linux/Windows system files
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Optional: ignore test results
+test-results/
+outputs/
+
+# Optional: ignore signing configurations
+signing.properties
+
+.DS_Store
