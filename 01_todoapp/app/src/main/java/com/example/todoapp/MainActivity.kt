@@ -20,7 +20,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.todoapp.ui.theme.TodoAppTheme
 import com.example.todoapp.ui.todo.TodoApp
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,40 +32,5 @@ class MainActivity : ComponentActivity() {
                 TodoApp()
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Composable
-fun AddTodoButton() {
-    FloatingActionButton (
-        onClick = {
-        }
-    ) {
-        Icon(Icons.Filled.Add, "Floating Action Button",)
-    }
-
-}
-@Preview(showBackground = true)
-@Composable
-fun AddTodoButtonPreview() {
-    TodoAppTheme {
-        AddTodoButton()
-    }
-
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    TodoAppTheme {
-        Greeting("Android")
     }
 }
