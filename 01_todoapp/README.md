@@ -9,7 +9,7 @@ The way I learn in here is comparing how things work in flutter and in Compose. 
 I will be continuing to update this README to update my progress in this journey. Stay tuned!
 
 ## What I learned so far
-1. I leared some basic stuff in android such as:
+1. I learned some basic stuff in android such as:
     - [why there are 2 `build.gradle` file in Android](https://stackoverflow.com/questions/23241681/why-are-there-two-build-gradle-files-in-an-android-studio-project).
     - how to add dependency in `build.gradle`.
     - understand the use of version catalog.
